@@ -14,4 +14,3 @@ let total = parseInt(refs.counterValue.textContent);
 refs.counterValue.textContent = total + 1;
 });
 
-
