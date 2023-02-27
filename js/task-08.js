@@ -10,7 +10,7 @@ const {
 } = event.currentTarget;
 
 if (email.value  === '' || password.value === '') {
-  window.alert('Alert!');
+  window.alert('Всі поля мають бути заповненими!');
 };
 console.log(`Email: ${email.value} , Password: ${password.value}`);
 event.target.reset();
