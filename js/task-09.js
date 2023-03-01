@@ -19,8 +19,10 @@ const titleColor = document.querySelector('.color');
 const body = document.body;
 
 swapBtnEl.addEventListener('click' , (event) => {
-  body.style.backgroundColor = getRandomHexColor();
-titleColor.textContent = getRandomHexColor();
+
+  const color = getRandomHexColor();
+  body.style.backgroundColor = color;
+titleColor.textContent = color;
 });
 
 function getRandomHexColor() {
